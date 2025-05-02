@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56d2e7e52c936a4ab2b1b737dcf2026, type: 3}
+  m_Name: Devices Network Config
+  m_EditorClassIdentifier: 
+  Devices:
+  - Id: PowerSource
+    Type: -1044644846
+    OutputIds:
+    - Switch1
+    - Switch2
+    - Switch3
+    - Camera 3
+    - Camera2
+    - Camera1
+    powerConsumption: 0
+  - Id: Switch1
+    Type: -937734862
+    OutputIds:
+    - Ceil lamp 2
+    powerConsumption: 0
+  - Id: Switch2
+    Type: -937734862
+    OutputIds: []
+    powerConsumption: 0
+  - Id: Switch3
+    Type: -937734862
+    OutputIds:
+    - Door1
+    - Bridge
+    powerConsumption: 0
+  - Id: Camera1
+    Type: 1191632477
+    OutputIds: []
+    powerConsumption: 0
+  - Id: Door1
+    Type: -2015441228
+    OutputIds: []
+    powerConsumption: 0
+  - Id: Bridge
+    Type: 1965071259
+    OutputIds:
+    - Switch4
+    - Switch5
+    - Switch9
+    - Switch8
+    powerConsumption: 0
+  - Id: Camera 3
+    Type: 1191632477
+    OutputIds: []
+    powerConsumption: 0
+  - Id: Camera2
+    Type: 1191632477
+    OutputIds: []
+    powerConsumption: 0
+  - Id: Switch4
+    Type: -937734862
+    OutputIds:
+    - Ceil lamp 1
+    powerConsumption: 0
+  - Id: Switch5
+    Type: -937734862
+    OutputIds:
+    - Switch6
+    - Switch7
+    powerConsumption: 0
+  - Id: Switch7
+    Type: -937734862
+    OutputIds:
+    - ORGate1
+    powerConsumption: 0
+  - Id: ORGate1
+    Type: -1525939126
+    OutputIds:
+    - Lamp1
+    powerConsumption: 0
+  - Id: Switch6
+    Type: -937734862
+    OutputIds:
+    - ORGate1
+    powerConsumption: 0
+  - Id: Lamp1
+    Type: -203698500
+    OutputIds: []
+    powerConsumption: 30
+  - Id: Switch8
+    Type: -937734862
+    OutputIds:
+    - ANDGate1
+    powerConsumption: 0
+  - Id: ANDGate1
+    Type: -173627847
+    OutputIds:
+    - Lamp2
+    powerConsumption: 0
+  - Id: Switch9
+    Type: -937734862
+    OutputIds:
+    - ANDGate1
+    powerConsumption: 0
+  - Id: Lamp2
+    Type: -203698500
+    OutputIds: []
+    powerConsumption: 30
+  - Id: Ceil lamp 2
+    Type: -203698500
+    OutputIds: []
+    powerConsumption: 100
+  - Id: Ceil lamp 1
+    Type: -203698500
+    OutputIds: []
+    powerConsumption: 100

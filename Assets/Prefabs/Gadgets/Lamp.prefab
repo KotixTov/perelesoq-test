@@ -1369,7 +1369,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 4577
+  m_VersionIndex: 4580
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1495,7 +1495,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2774957767367426767}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -1589,7 +1589,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3759430850911257487}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -1653,6 +1653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1061481520728041507}
+  - component: {fileID: 2326019146135005615}
   m_Layer: 0
   m_Name: Lamp
   m_TagString: Untagged
@@ -1679,6 +1680,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2326019146135005615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5488502559412146252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37697612b2ba49343b22bcbdb25492a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 
+  _emissionSetups:
+  - Renderer: {fileID: 6596406794795501}
+    Color: {r: 0.8396226, g: 0.71797013, b: 0.44753462, a: 1}
+  _lights:
+  - {fileID: 6281318341422545424}
+  - {fileID: 4419821855055792401}
 --- !u!1 &9003575194112234733
 GameObject:
   m_ObjectHideFlags: 0
@@ -6197,7 +6217,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 4571
+  m_VersionIndex: 4574
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
