@@ -5,7 +5,7 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - m_Target: {instanceID: 0}
-  - _iconTexture: {fileID: 2800000, guid: 874d8401331ede14087e8d8d486ddda6, type: 3}
+  - _iconTexture: {fileID: 2800000, guid: 612c5e166a121e3449dad067fbdc37a4, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
