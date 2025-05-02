@@ -20,7 +20,7 @@ public class MainScreenInfoView : MonoBehaviour
     private void UpdateTexts()
     {
         TimeSpan time = TimeSpan.FromSeconds(_networkService.Time);
-        _timeText.text = $"TIME: {time.Days}d {time.Hours}h {time.Minutes}m {time.Seconds}s";
+        _timeText.text = $"{time.Days}d {time.Hours}h {time.Minutes}m {time.Seconds}s";
         _totalConsumptionText.text = $"TOTAL: {_networkService.TotalConsumption:f2}W·H";
         _currentPowerText.text = $"CURRENT: {_networkService.CurrentPower:f2}W";
     }
