@@ -14,7 +14,7 @@ public class LampView : DeviceView<LampModel>
     [SerializeField] private Light[] _lights;
 
     private static readonly int EmissionColorShaderID = Shader.PropertyToID("_EmissionColor");
-    private void Awake()
+    public override void OnInitialize()
     {
         foreach (var setup in _emissionSetups)
         {

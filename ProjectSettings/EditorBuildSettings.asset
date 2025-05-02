@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Levels/Test/Scenes/Level_test.unity
+    guid: 6e366a05402ea92408dff94dd347f014
+  - enabled: 1
+    path: Assets/Levels/Test/Scenes/Level_test_Env.unity
+    guid: cc923a98f4e9d4d4f88c28f254ca1de6
+  - enabled: 1
+    path: Assets/Levels/Test/Scenes/Level_test_Lights.unity
+    guid: bfe21eeedfed2d440b11475778d987da
+  - enabled: 1
+    path: Assets/Levels/Test/Scenes/Level_test_Nav.unity
+    guid: 616c3a10a7e7e794d839781c068280d8
+  - enabled: 1
+    path: Assets/Levels/Test/Scenes/Level_test_UI.unity
+    guid: 4a223e41cf8cfaa48aa9493982704fe8
   m_configObjects: {}
